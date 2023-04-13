@@ -40,20 +40,20 @@ The id selector selects the id attribute of an HTML element to select a specific
 
 * It is written with the hash character (#), followed by the id of the element.
 
-> `<!DOCTYPE html>`  
-`<html> ` 
-`<head> ` 
-`<style>  `
-`#para1 { ` 
-    `text-align: center;`  
-    `color: blue;  `
-`}  `
-`</style>  `
-`</head>  `
-`<body>  `
-`<p id="para1">Hello</p>`  
-`<p>This paragraph will not be affected.</p>  `
-`</body>  `
+>  `<!DOCTYPE html>`  <br>
+`<html> ` <br>
+`<head> ` <br>
+`<style>  `<br>
+`#para1 { ` <br>
+    `text-align: center;`  <br>
+    `color: blue;  `<br>
+`}  `<br>
+`</style>  `<br>
+`</head>  `<br>
+`<body>  `<br>
+`<p id="para1">Hello</p>`  <br>
+`<p>This paragraph will not be affected.</p>  `<br>
+`</body>  `<br>
 `</html> `   
 ___________________
 3. ### __CSS Class Selector__
@@ -61,42 +61,42 @@ The class selector selects HTML elements with a specific class attribute. It is 
 
 > Note __:__ A class name should not be started with a number.
 
-> `<!DOCTYPE html> ` 
-`<html>  `
-`<head>  `
-`<style>  `
-`.center { ` 
- `   text-align: center;  `
- `  color: blue;  `
-`}  `
-`</style> ` 
-`</head>  `
-`<body>  `
-`<h1 class="center">This heading is blue and center-aligned. </h1>`  
-`<p class="center">This paragraph is blue and center-aligned.</p>   `
-`</body>  `
-`</html> ` 
+> `<!DOCTYPE html> ` <br>
+`<html>  `<br>
+`<head>  `<br>
+`<style>  `<br>
+`.center { ` <br>
+ `   text-align: center;  `<br>
+ `  color: blue;  `<br>
+`}  `<br>
+`</style> ` <br>
+`</head>  `<br>
+`<body>  `<br>
+`<h1 class="center">This heading is blue and center-aligned. </h1>`  <br>
+`<p class="center">This paragraph is blue and center-aligned.</p>   `<br>
+`</body>  `<br>
+`</html> ` <br>
 
 ________________________________
 
 4. ### __CSS Universal Selector__
 The universal selector is used as a wildcard character. It selects all the elements on the pages.
 
-> `<!DOCTYPE html>  `
-`<html>  `
-`<head>  `
-`<style>  `
-`p.center {`  
- `   text-align: center;  `
-  `  color: blue;  `
-`}  `
-`</style>`  
-`</head>  `
-`<body>  `
-`<h1 class="center">This heading is not  affected</h1>`  
-`<p class="center">This paragraph is blue and center-aligned.</p> `  
-`</body>  `
-`</html> `
+> `<!DOCTYPE html>  `<br>
+`<html>  `<br>
+`<head>  `<br>
+`<style>  `<br>
+`p.center {`  <br>
+ `   text-align: center;  `<br>
+  `  color: blue;  `<br>
+`}  `<br>
+`</style>`  <br>
+`</head>  `<br>
+`<body>  `<br>
+`<h1 class="center">This heading is not  affected</h1>`  <br>
+`<p class="center">This paragraph is blue and center-aligned.</p> `  <br>
+`</body>  `<br>
+`</html> `<br>
 __________________
 
 5. ### __CSS Group Selector__
@@ -104,23 +104,23 @@ The grouping selector is used to select all the elements with the same style def
 
 Grouping selector is used to minimize the code. Commas are used to separate each selector in grouping.
 
-> `<!DOCTYPE html>  `
-`<html>  `
-`<head>  `
-`<style>  `
-`* {  `
-  ` color: green;  `
-  `font-size: 20px;  `
-`}   `
-`</style>  `
-`</head>  `
-`<body>  `
-`<h2>This is heading</h2>  `
-`<p>This style will be applied on every paragraph.</p>  `
-`<p id="para1">Me too!</p>  `
-`<p>And me!</p>  `
-`</body>  `
-`</html>`    
+> `<!DOCTYPE html>  `<br>
+`<html>  `<br>
+`<head>  `<br>
+`<style>  `<br>
+`* {  `<br>
+  ` color: green;  `<br>
+  `font-size: 20px;  `<br>
+`}   `<br>
+`</style>  `<br>
+`</head>  `<br>
+`<body>  `<br>
+`<h2>This is heading</h2>  `<br>
+`<p>This style will be applied on every paragraph.</p>  `<br>
+`<p id="para1">Me too!</p>  `<br>
+`<p>And me!</p>  `<br>
+`</body>  `<br>
+`</html>`    <br>
 _______________
 
 > ## CSS PROPERTIES
