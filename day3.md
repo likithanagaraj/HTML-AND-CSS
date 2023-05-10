@@ -280,4 +280,4 @@ _______
 ### 19. Grid-template-rows
 * Specifies the size of the rows in a grid layout
 ### 20. Row-gap	
-*Specifies the gap between the grid rows.
+* Specifies the gap between the grid rows.
